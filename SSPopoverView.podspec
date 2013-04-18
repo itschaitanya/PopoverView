@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   }
   s.author       = { "Sanjit Saluja" => "loopwhile1@gmail.com" }
   s.author       = 'loopwhile1'
-  s.source       = { :git => "https://github.com/loopwhile1/PopoverView.git", :commit => "eb50a32122ca59c76ffa2713b0230cb3975a20a5" }
+  s.source       = { :git => "https://github.com/loopwhile1/PopoverView.git", :tag=>"0.0.2" }
   s.platform     = :ios
   s.source_files = 'PopoverView/*.{h,m}'
 end

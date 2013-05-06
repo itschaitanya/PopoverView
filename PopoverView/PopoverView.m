@@ -182,6 +182,7 @@
 
 - (void)dealloc
 {
+    self.theme = nil;
     self.subviewsArray = nil;
     
     if (dividerRects) {

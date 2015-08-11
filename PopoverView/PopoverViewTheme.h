@@ -108,7 +108,7 @@ typedef enum {
 @property (nonatomic, readonly) UIColor *textHighlightColor;
 
 //normal text alignment
-@property (nonatomic, readonly) UITextAlignment textAlignment;
+@property (nonatomic, readonly) NSTextAlignment textAlignment;
 
 //title font
 @property (nonatomic, readonly) UIFont *titleFont;
